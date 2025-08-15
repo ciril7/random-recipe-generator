@@ -73,6 +73,7 @@ https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(126).p
 ### Project Demo
 # Video
 https://github.com/ciril7/random-recipe-generator/blob/main/Random%20Recipe%20Generator%20for%20Foods%20That%20Don't%20Exist%20-%2015%20August%202025.mp4
+
 *This is my whole project*
 
 
