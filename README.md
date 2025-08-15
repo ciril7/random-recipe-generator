@@ -63,11 +63,12 @@ python app.py
 For Software:
 
 # Screenshots (Add at least 3)
-<img width="1400" alt="Screenshot (123)" src="https://raw.githubusercontent.com/ciril7/random-recipe-generator/main/Screenshot%20(123).png" />
-<img width="1400" alt="Screenshot (124)" src="https://raw.githubusercontent.com/ciril7/random-recipe-generator/main/Screenshot%20(124).png" />
-<img width="1400" alt="Screenshot (126)" src="https://raw.githubusercontent.com/ciril7/random-recipe-generator/main/Screenshot%20(126).png" />
+<img width="1920" height="1080" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/4ccef3b0-00b3-4eb5-a251-e5a48a1859d8" />
 
 
+<img width="1920" height="1080" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/1ea1bdae-546d-4f9c-8547-41b74c7e126f" />
+
+<img width="1920" height="1080" alt="Screenshot (123)" src="https://github.com/user-attachments/assets/878359e3-cc14-4acc-a754-c79931c7f419" />
 
 ### Project Demo
 # Video
