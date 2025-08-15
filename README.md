@@ -64,7 +64,9 @@ For Software:
 
 # Screenshots (Add at least 3)
 https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(123).png
+
 https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(124).png
+
 https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(126).png
 
 
