@@ -63,11 +63,10 @@ python app.py
 For Software:
 
 # Screenshots (Add at least 3)
-https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(123).png
+<img width="1400" alt="Screenshot (123)" src="https://raw.githubusercontent.com/ciril7/random-recipe-generator/main/Screenshot%20(123).png" />
+<img width="1400" alt="Screenshot (124)" src="https://raw.githubusercontent.com/ciril7/random-recipe-generator/main/Screenshot%20(124).png" />
+<img width="1400" alt="Screenshot (126)" src="https://raw.githubusercontent.com/ciril7/random-recipe-generator/main/Screenshot%20(126).png" />
 
-https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(124).png
-
-https://github.com/ciril7/random-recipe-generator/blob/main/Screenshot%20(126).png
 
 
 ### Project Demo
