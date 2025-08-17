@@ -1,0 +1,67 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fdf6e3;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #a020f0;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+input[type="text"], select {
+    padding: 12px 15px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #a020f0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 140px;
+}
+
+button:hover {
+    background-color: #7a0dbb;
+}
+
+#recipe {
+    background: #fff3cd;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 12px rgba(160, 32, 240, 0.25);
+    text-align: left;
+}
+
+.recipe-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #7a0dbb;
+}

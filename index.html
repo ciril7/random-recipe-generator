@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Recipe Generator for Foods That Don't Exist</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Random Recipe Generator for Foods That Don’t Exist</h1>
+
+    <!-- Centered input area -->
+    <div class="input-container">
+        <input type="text" id="foodName" placeholder="Type a food name for fun" />
+        <select id="mood">
+            <option value="happy">Happy</option>
+            <option value="fucked up">F*ked up</option>
+            <option value="sad">Sad</option>
+            <option value="romantic">Romantic</option>
+        </select>
+        <button onclick="generateRecipe()">Generate Recipe</button>
+    </div>
+
+    <!-- Recipe output -->
+    <div id="recipe"></div>
+
+    <script>
+        function generateRecipe() {
+            let foodName = document.getElementById('foodName').value.trim() || "Mystery Dish";
+            let mood = document.getElementById('mood').value;
+
+            fetch('/generate_recipe', {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ foodName: foodName, mood: mood })
+            })
+            .then(response => response.json())
+            .then(data => {
+                let recipeDiv = document.getElementById('recipe');
+                recipeDiv.innerHTML = `
+                    <h2>${data.name}</h2>
+                    <img src="${data.image}" alt="Recipe image" class="recipe-image" />
+                    <h3>Ingredients:</h3>
+                    <ul>${data.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>
+                    <h3>Steps:</h3>
+                    <ol>${data.steps.map(s => `<li>${s}</li>`).join('')}</ol>
+                `;
+            });
+        }
+    </script>
+</body>
+</html>
